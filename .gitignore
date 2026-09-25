@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+node_modules/
+*.egg-info/
+build/
+*.spec
+*.sqlite3*
+*.log
+.DS_Store
+releases/windows/*.exe
+releases/packages/
+*.zip
+*.tmp

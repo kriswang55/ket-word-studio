@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#214d3f">
+  <meta name="description" content="KET 词汇练习技术演示：学生拼写测试、错题复习、成绩统计与教师词汇管理。无需登录，可切换学生和教师页面。">
+  <title>KET Word Studio · 单词测试系统</title>
+  <link rel="icon" href="./icon.svg">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <div id="app"><div class="loading">正在加载词库…</div></div>
+  <noscript>请启用 JavaScript，以使用单词测试系统。</noscript>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="detail" aria-labelledby="dialog-title">
+    <button class="dialog-close ghost" type="button" aria-label="关闭对话框">×</button>
+    <div id="detail-content"></div>
+  </dialog>
+</body>
+</html>

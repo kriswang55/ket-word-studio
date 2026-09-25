@@ -1,0 +1,1252 @@
+[
+  {
+    "english": "granddad",
+    "chinese": "祖父",
+    "id": "w001",
+    "category": "家庭成员",
+    "aliases": []
+  },
+  {
+    "english": "uncle",
+    "chinese": "叔叔，舅舅",
+    "id": "w002",
+    "category": "家庭成员",
+    "aliases": []
+  },
+  {
+    "english": "aunt",
+    "chinese": "婶婶，姨姨",
+    "id": "w003",
+    "category": "家庭成员",
+    "aliases": []
+  },
+  {
+    "english": "cousin",
+    "chinese": "表/堂兄弟姐妹",
+    "id": "w004",
+    "category": "家庭成员",
+    "aliases": []
+  },
+  {
+    "english": "son",
+    "chinese": "儿子",
+    "id": "w005",
+    "category": "家庭成员",
+    "aliases": []
+  },
+  {
+    "english": "daughter",
+    "chinese": "女儿",
+    "id": "w006",
+    "category": "家庭成员",
+    "aliases": []
+  },
+  {
+    "english": "brother",
+    "chinese": "兄弟",
+    "id": "w007",
+    "category": "家庭成员",
+    "aliases": []
+  },
+  {
+    "english": "sister",
+    "chinese": "姐妹",
+    "id": "w008",
+    "category": "家庭成员",
+    "aliases": []
+  },
+  {
+    "english": "grandson",
+    "chinese": "孙子",
+    "id": "w009",
+    "category": "家庭成员",
+    "aliases": []
+  },
+  {
+    "english": "granddaughter",
+    "chinese": "孙女",
+    "id": "w010",
+    "category": "家庭成员",
+    "aliases": []
+  },
+  {
+    "english": "husband",
+    "chinese": "丈夫",
+    "id": "w011",
+    "category": "家庭成员",
+    "aliases": []
+  },
+  {
+    "english": "wife",
+    "chinese": "妻子",
+    "id": "w012",
+    "category": "家庭成员",
+    "aliases": []
+  },
+  {
+    "english": "board",
+    "chinese": "布告板；黑板",
+    "id": "w013",
+    "category": "校园用品",
+    "aliases": []
+  },
+  {
+    "english": "textbook",
+    "chinese": "课本",
+    "id": "w014",
+    "category": "校园用品",
+    "aliases": []
+  },
+  {
+    "english": "pencil case",
+    "chinese": "铅笔盒",
+    "id": "w015",
+    "category": "校园用品",
+    "aliases": []
+  },
+  {
+    "english": "desk",
+    "chinese": "书桌",
+    "id": "w016",
+    "category": "校园用品",
+    "aliases": []
+  },
+  {
+    "english": "ruler",
+    "chinese": "尺子",
+    "id": "w017",
+    "category": "校园用品",
+    "aliases": []
+  },
+  {
+    "english": "pen",
+    "chinese": "钢笔",
+    "id": "w018",
+    "category": "校园用品",
+    "aliases": []
+  },
+  {
+    "english": "dictionary",
+    "chinese": "词典",
+    "id": "w019",
+    "category": "校园用品",
+    "aliases": []
+  },
+  {
+    "english": "pencil",
+    "chinese": "铅笔",
+    "id": "w020",
+    "category": "校园用品",
+    "aliases": []
+  },
+  {
+    "english": "timetable",
+    "chinese": "时间表；课程表",
+    "id": "w021",
+    "category": "校园用品",
+    "aliases": []
+  },
+  {
+    "english": "notebook",
+    "chinese": "笔记本",
+    "id": "w022",
+    "category": "校园用品",
+    "aliases": []
+  },
+  {
+    "english": "rubber",
+    "chinese": "橡皮",
+    "id": "w023",
+    "category": "校园用品",
+    "aliases": []
+  },
+  {
+    "english": "German",
+    "chinese": "德国人；德语；德国的",
+    "id": "w024",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "Syrian",
+    "chinese": "叙利亚人；叙利亚的",
+    "id": "w025",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "Indian",
+    "chinese": "印度人；印度的",
+    "id": "w026",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "Italy",
+    "chinese": "意大利",
+    "id": "w027",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "Mexican",
+    "chinese": "墨西哥人；墨西哥的",
+    "id": "w028",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "China",
+    "chinese": "中国",
+    "id": "w029",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "Japanese",
+    "chinese": "日本人；日语；日本的",
+    "id": "w030",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "Portuguese",
+    "chinese": "葡萄牙人；葡萄牙语；葡萄牙的",
+    "id": "w031",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "British",
+    "chinese": "英国人；英国的",
+    "id": "w032",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "Irish",
+    "chinese": "爱尔兰人；爱尔兰的",
+    "id": "w033",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "Spain",
+    "chinese": "西班牙",
+    "id": "w034",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "Swedish",
+    "chinese": "瑞典人；瑞典语；瑞典的",
+    "id": "w035",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "France",
+    "chinese": "法国",
+    "id": "w036",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "Greek",
+    "chinese": "希腊人；希腊语；希腊的",
+    "id": "w037",
+    "category": "国家与国籍",
+    "aliases": []
+  },
+  {
+    "english": "expensive",
+    "chinese": "昂贵的",
+    "id": "w038",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "cheap",
+    "chinese": "便宜的",
+    "id": "w039",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "light",
+    "chinese": "轻的；明亮的",
+    "id": "w040",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "dark",
+    "chinese": "黑暗的；深色的",
+    "id": "w041",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "new",
+    "chinese": "新的",
+    "id": "w042",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "old",
+    "chinese": "旧的；老的",
+    "id": "w043",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "short",
+    "chinese": "短的；矮的",
+    "id": "w044",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "long",
+    "chinese": "长的",
+    "id": "w045",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "small",
+    "chinese": "小的",
+    "id": "w046",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "large",
+    "chinese": "大的",
+    "id": "w047",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "bathroom",
+    "chinese": "浴室；洗手间",
+    "id": "w048",
+    "category": "家居生活",
+    "aliases": []
+  },
+  {
+    "english": "garage",
+    "chinese": "车库",
+    "id": "w049",
+    "category": "家居生活",
+    "aliases": []
+  },
+  {
+    "english": "kitchen",
+    "chinese": "厨房",
+    "id": "w050",
+    "category": "家居生活",
+    "aliases": []
+  },
+  {
+    "english": "hall",
+    "chinese": "大厅；走廊",
+    "id": "w051",
+    "category": "家居生活",
+    "aliases": []
+  },
+  {
+    "english": "garden",
+    "chinese": "花园",
+    "id": "w052",
+    "category": "家居生活",
+    "aliases": []
+  },
+  {
+    "english": "dining room",
+    "chinese": "餐厅",
+    "id": "w053",
+    "category": "家居生活",
+    "aliases": []
+  },
+  {
+    "english": "living room",
+    "chinese": "客厅；起居室",
+    "id": "w054",
+    "category": "家居生活",
+    "aliases": []
+  },
+  {
+    "english": "bookshelf",
+    "chinese": "书架",
+    "id": "w055",
+    "category": "家居生活",
+    "aliases": []
+  },
+  {
+    "english": "chair",
+    "chinese": "椅子",
+    "id": "w056",
+    "category": "家居生活",
+    "aliases": []
+  },
+  {
+    "english": "lamp",
+    "chinese": "灯",
+    "id": "w057",
+    "category": "家居生活",
+    "aliases": []
+  },
+  {
+    "english": "carpet",
+    "chinese": "地毯",
+    "id": "w058",
+    "category": "家居生活",
+    "aliases": []
+  },
+  {
+    "english": "bed",
+    "chinese": "床",
+    "id": "w059",
+    "category": "家居生活",
+    "aliases": []
+  },
+  {
+    "english": "water",
+    "chinese": "水",
+    "id": "w060",
+    "category": "食物饮料",
+    "aliases": []
+  },
+  {
+    "english": "cheese",
+    "chinese": "奶酪",
+    "id": "w061",
+    "category": "食物饮料",
+    "aliases": []
+  },
+  {
+    "english": "biscuits",
+    "chinese": "饼干",
+    "id": "w062",
+    "category": "食物饮料",
+    "aliases": []
+  },
+  {
+    "english": "apple",
+    "chinese": "苹果",
+    "id": "w063",
+    "category": "食物饮料",
+    "aliases": []
+  },
+  {
+    "english": "banana",
+    "chinese": "香蕉",
+    "id": "w064",
+    "category": "食物饮料",
+    "aliases": []
+  },
+  {
+    "english": "cake",
+    "chinese": "蛋糕",
+    "id": "w065",
+    "category": "食物饮料",
+    "aliases": []
+  },
+  {
+    "english": "orange juice",
+    "chinese": "橙汁",
+    "id": "w066",
+    "category": "食物饮料",
+    "aliases": []
+  },
+  {
+    "english": "ice cream",
+    "chinese": "冰淇淋",
+    "id": "w067",
+    "category": "食物饮料",
+    "aliases": []
+  },
+  {
+    "english": "lemonade",
+    "chinese": "柠檬水",
+    "id": "w068",
+    "category": "食物饮料",
+    "aliases": []
+  },
+  {
+    "english": "salad",
+    "chinese": "沙拉",
+    "id": "w069",
+    "category": "食物饮料",
+    "aliases": []
+  },
+  {
+    "english": "chicken",
+    "chinese": "鸡肉；鸡",
+    "id": "w070",
+    "category": "食物饮料",
+    "aliases": []
+  },
+  {
+    "english": "rice",
+    "chinese": "米饭；大米",
+    "id": "w071",
+    "category": "食物饮料",
+    "aliases": []
+  },
+  {
+    "english": "department store",
+    "chinese": "百货商店",
+    "id": "w072",
+    "category": "购物场所",
+    "aliases": []
+  },
+  {
+    "english": "supermarket",
+    "chinese": "超市",
+    "id": "w073",
+    "category": "购物场所",
+    "aliases": []
+  },
+  {
+    "english": "bookshop",
+    "chinese": "书店",
+    "id": "w074",
+    "category": "购物场所",
+    "aliases": []
+  },
+  {
+    "english": "chemist",
+    "chinese": "药剂师；药店",
+    "id": "w075",
+    "category": "购物场所",
+    "aliases": []
+  },
+  {
+    "english": "theatre",
+    "chinese": "剧院",
+    "id": "w076",
+    "category": "购物场所",
+    "aliases": []
+  },
+  {
+    "english": "police station",
+    "chinese": "警察局",
+    "id": "w077",
+    "category": "购物场所",
+    "aliases": []
+  },
+  {
+    "english": "camera",
+    "chinese": "照相机",
+    "id": "w078",
+    "category": "数码科技",
+    "aliases": []
+  },
+  {
+    "english": "mouse",
+    "chinese": "鼠标；老鼠",
+    "id": "w079",
+    "category": "数码科技",
+    "aliases": []
+  },
+  {
+    "english": "memory card",
+    "chinese": "存储卡",
+    "id": "w080",
+    "category": "数码科技",
+    "aliases": []
+  },
+  {
+    "english": "smartphone",
+    "chinese": "智能手机",
+    "id": "w081",
+    "category": "数码科技",
+    "aliases": []
+  },
+  {
+    "english": "laptop",
+    "chinese": "笔记本电脑",
+    "id": "w082",
+    "category": "数码科技",
+    "aliases": []
+  },
+  {
+    "english": "keyboard",
+    "chinese": "键盘",
+    "id": "w083",
+    "category": "数码科技",
+    "aliases": []
+  },
+  {
+    "english": "downloads",
+    "chinese": "下载",
+    "id": "w084",
+    "category": "数码科技",
+    "aliases": []
+  },
+  {
+    "english": "send",
+    "chinese": "发送",
+    "id": "w085",
+    "category": "数码科技",
+    "aliases": []
+  },
+  {
+    "english": "upload",
+    "chinese": "上传",
+    "id": "w086",
+    "category": "数码科技",
+    "aliases": []
+  },
+  {
+    "english": "check",
+    "chinese": "检查",
+    "id": "w087",
+    "category": "数码科技",
+    "aliases": []
+  },
+  {
+    "english": "pop music",
+    "chinese": "流行音乐",
+    "id": "w088",
+    "category": "音乐类型",
+    "aliases": []
+  },
+  {
+    "english": "electronica/dance music",
+    "chinese": "电子/舞曲音乐",
+    "id": "w089",
+    "category": "音乐类型",
+    "aliases": [
+      "electronica",
+      "dance music",
+      "electronica / dance music"
+    ]
+  },
+  {
+    "english": "classical music",
+    "chinese": "古典音乐",
+    "id": "w090",
+    "category": "音乐类型",
+    "aliases": []
+  },
+  {
+    "english": "rock music",
+    "chinese": "摇滚音乐",
+    "id": "w091",
+    "category": "音乐类型",
+    "aliases": []
+  },
+  {
+    "english": "Jazz music",
+    "chinese": "爵士乐",
+    "id": "w092",
+    "category": "音乐类型",
+    "aliases": []
+  },
+  {
+    "english": "opera music",
+    "chinese": "歌剧音乐",
+    "id": "w093",
+    "category": "音乐类型",
+    "aliases": []
+  },
+  {
+    "english": "R&B music",
+    "chinese": "节奏布鲁斯音乐",
+    "id": "w094",
+    "category": "音乐类型",
+    "aliases": []
+  },
+  {
+    "english": "hospital",
+    "chinese": "医院",
+    "id": "w095",
+    "category": "城市生活",
+    "aliases": []
+  },
+  {
+    "english": "church",
+    "chinese": "教堂",
+    "id": "w096",
+    "category": "城市生活",
+    "aliases": []
+  },
+  {
+    "english": "cinema",
+    "chinese": "电影院",
+    "id": "w097",
+    "category": "城市生活",
+    "aliases": []
+  },
+  {
+    "english": "factory",
+    "chinese": "工厂",
+    "id": "w098",
+    "category": "城市生活",
+    "aliases": []
+  },
+  {
+    "english": "train station",
+    "chinese": "火车站",
+    "id": "w099",
+    "category": "城市生活",
+    "aliases": []
+  },
+  {
+    "english": "hotel",
+    "chinese": "酒店",
+    "id": "w100",
+    "category": "城市生活",
+    "aliases": []
+  },
+  {
+    "english": "mosque",
+    "chinese": "清真寺",
+    "id": "w101",
+    "category": "城市生活",
+    "aliases": []
+  },
+  {
+    "english": "museum",
+    "chinese": "博物馆",
+    "id": "w102",
+    "category": "城市生活",
+    "aliases": []
+  },
+  {
+    "english": "post office",
+    "chinese": "邮局",
+    "id": "w103",
+    "category": "城市生活",
+    "aliases": []
+  },
+  {
+    "english": "stadium",
+    "chinese": "体育场",
+    "id": "w104",
+    "category": "城市生活",
+    "aliases": []
+  },
+  {
+    "english": "summer",
+    "chinese": "夏天",
+    "id": "w105",
+    "category": "四季时光",
+    "aliases": []
+  },
+  {
+    "english": "spring",
+    "chinese": "春天",
+    "id": "w106",
+    "category": "四季时光",
+    "aliases": []
+  },
+  {
+    "english": "autumn",
+    "chinese": "秋天",
+    "id": "w107",
+    "category": "四季时光",
+    "aliases": []
+  },
+  {
+    "english": "winter",
+    "chinese": "冬天",
+    "id": "w108",
+    "category": "四季时光",
+    "aliases": []
+  },
+  {
+    "english": "interesting",
+    "chinese": "有趣的",
+    "id": "w109",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "boring",
+    "chinese": "无聊的",
+    "id": "w110",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "terrible",
+    "chinese": "糟糕的；可怕的",
+    "id": "w111",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "amazing",
+    "chinese": "令人惊叹的",
+    "id": "w112",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "horrible",
+    "chinese": "可怕的；讨厌的",
+    "id": "w113",
+    "category": "描述事物",
+    "aliases": []
+  },
+  {
+    "english": "lake",
+    "chinese": "湖泊",
+    "id": "w114",
+    "category": "自然风景",
+    "aliases": []
+  },
+  {
+    "english": "beach",
+    "chinese": "海滩",
+    "id": "w115",
+    "category": "自然风景",
+    "aliases": []
+  },
+  {
+    "english": "mountain",
+    "chinese": "山；山脉",
+    "id": "w116",
+    "category": "自然风景",
+    "aliases": []
+  },
+  {
+    "english": "islands",
+    "chinese": "岛屿",
+    "id": "w117",
+    "category": "自然风景",
+    "aliases": []
+  },
+  {
+    "english": "forest",
+    "chinese": "森林",
+    "id": "w118",
+    "category": "自然风景",
+    "aliases": []
+  },
+  {
+    "english": "desert",
+    "chinese": "沙漠",
+    "id": "w119",
+    "category": "自然风景",
+    "aliases": []
+  },
+  {
+    "english": "eye",
+    "chinese": "眼睛",
+    "id": "w120",
+    "category": "身体部位",
+    "aliases": []
+  },
+  {
+    "english": "finger",
+    "chinese": "手指",
+    "id": "w121",
+    "category": "身体部位",
+    "aliases": []
+  },
+  {
+    "english": "nose",
+    "chinese": "鼻子",
+    "id": "w122",
+    "category": "身体部位",
+    "aliases": []
+  },
+  {
+    "english": "mouth",
+    "chinese": "嘴巴",
+    "id": "w123",
+    "category": "身体部位",
+    "aliases": []
+  },
+  {
+    "english": "stomach",
+    "chinese": "胃；腹部",
+    "id": "w124",
+    "category": "身体部位",
+    "aliases": []
+  },
+  {
+    "english": "head",
+    "chinese": "头",
+    "id": "w125",
+    "category": "身体部位",
+    "aliases": []
+  },
+  {
+    "english": "hand",
+    "chinese": "手",
+    "id": "w126",
+    "category": "身体部位",
+    "aliases": []
+  },
+  {
+    "english": "foot",
+    "chinese": "脚",
+    "id": "w127",
+    "category": "身体部位",
+    "aliases": []
+  },
+  {
+    "english": "neck",
+    "chinese": "脖子",
+    "id": "w128",
+    "category": "身体部位",
+    "aliases": []
+  },
+  {
+    "english": "back",
+    "chinese": "背部",
+    "id": "w129",
+    "category": "身体部位",
+    "aliases": []
+  },
+  {
+    "english": "arm",
+    "chinese": "胳膊",
+    "id": "w130",
+    "category": "身体部位",
+    "aliases": []
+  },
+  {
+    "english": "leg",
+    "chinese": "腿",
+    "id": "w131",
+    "category": "身体部位",
+    "aliases": []
+  },
+  {
+    "english": "motorbike",
+    "chinese": "摩托车",
+    "id": "w132",
+    "category": "交通出行",
+    "aliases": []
+  },
+  {
+    "english": "coach",
+    "chinese": "长途客车；教练",
+    "id": "w133",
+    "category": "交通出行",
+    "aliases": []
+  },
+  {
+    "english": "tram",
+    "chinese": "有轨电车",
+    "id": "w134",
+    "category": "交通出行",
+    "aliases": []
+  },
+  {
+    "english": "scooter",
+    "chinese": "踏板车；小型摩托车",
+    "id": "w135",
+    "category": "交通出行",
+    "aliases": []
+  },
+  {
+    "english": "taxi",
+    "chinese": "出租车",
+    "id": "w136",
+    "category": "交通出行",
+    "aliases": []
+  },
+  {
+    "english": "helicopter",
+    "chinese": "直升机",
+    "id": "w137",
+    "category": "交通出行",
+    "aliases": []
+  },
+  {
+    "english": "drive",
+    "chinese": "驾驶",
+    "id": "w138",
+    "category": "交通出行",
+    "aliases": []
+  },
+  {
+    "english": "bus",
+    "chinese": "公共汽车",
+    "id": "w139",
+    "category": "交通出行",
+    "aliases": []
+  },
+  {
+    "english": "train",
+    "chinese": "火车",
+    "id": "w140",
+    "category": "交通出行",
+    "aliases": []
+  },
+  {
+    "english": "fly",
+    "chinese": "飞；驾驶飞机",
+    "id": "w141",
+    "category": "交通出行",
+    "aliases": []
+  },
+  {
+    "english": "plane",
+    "chinese": "飞机",
+    "id": "w142",
+    "category": "交通出行",
+    "aliases": []
+  },
+  {
+    "english": "toothache",
+    "chinese": "牙痛",
+    "id": "w143",
+    "category": "健康身体",
+    "aliases": []
+  },
+  {
+    "english": "temperature",
+    "chinese": "体温；温度",
+    "id": "w144",
+    "category": "健康身体",
+    "aliases": []
+  },
+  {
+    "english": "hurt",
+    "chinese": "受伤；疼痛",
+    "id": "w145",
+    "category": "健康身体",
+    "aliases": []
+  },
+  {
+    "english": "cold",
+    "chinese": "感冒；寒冷的",
+    "id": "w146",
+    "category": "健康身体",
+    "aliases": []
+  },
+  {
+    "english": "sick",
+    "chinese": "生病的",
+    "id": "w147",
+    "category": "健康身体",
+    "aliases": []
+  },
+  {
+    "english": "photographers",
+    "chinese": "摄影师",
+    "id": "w148",
+    "category": "舞台表演",
+    "aliases": []
+  },
+  {
+    "english": "bands",
+    "chinese": "乐队",
+    "id": "w149",
+    "category": "舞台表演",
+    "aliases": []
+  },
+  {
+    "english": "actor",
+    "chinese": "演员",
+    "id": "w150",
+    "category": "舞台表演",
+    "aliases": []
+  },
+  {
+    "english": "dancers",
+    "chinese": "舞者",
+    "id": "w151",
+    "category": "舞台表演",
+    "aliases": []
+  },
+  {
+    "english": "play",
+    "chinese": "玩；演奏；戏剧",
+    "id": "w152",
+    "category": "舞台表演",
+    "aliases": []
+  },
+  {
+    "english": "persuade",
+    "chinese": "说服",
+    "id": "w153",
+    "category": "沟通表达",
+    "aliases": []
+  },
+  {
+    "english": "describe",
+    "chinese": "描述",
+    "id": "w154",
+    "category": "沟通表达",
+    "aliases": []
+  },
+  {
+    "english": "chat",
+    "chinese": "聊天",
+    "id": "w155",
+    "category": "沟通表达",
+    "aliases": []
+  },
+  {
+    "english": "explain",
+    "chinese": "解释",
+    "id": "w156",
+    "category": "沟通表达",
+    "aliases": []
+  },
+  {
+    "english": "discuss",
+    "chinese": "讨论",
+    "id": "w157",
+    "category": "沟通表达",
+    "aliases": []
+  },
+  {
+    "english": "shout",
+    "chinese": "大喊",
+    "id": "w158",
+    "category": "沟通表达",
+    "aliases": []
+  },
+  {
+    "english": "argue",
+    "chinese": "争论",
+    "id": "w159",
+    "category": "沟通表达",
+    "aliases": []
+  },
+  {
+    "english": "tired",
+    "chinese": "疲倦的",
+    "id": "w160",
+    "category": "情绪感受",
+    "aliases": []
+  },
+  {
+    "english": "surprised",
+    "chinese": "惊讶的",
+    "id": "w161",
+    "category": "情绪感受",
+    "aliases": []
+  },
+  {
+    "english": "worried",
+    "chinese": "担心的",
+    "id": "w162",
+    "category": "情绪感受",
+    "aliases": []
+  },
+  {
+    "english": "interested",
+    "chinese": "感兴趣的",
+    "id": "w163",
+    "category": "情绪感受",
+    "aliases": []
+  },
+  {
+    "english": "bored",
+    "chinese": "无聊的",
+    "id": "w164",
+    "category": "情绪感受",
+    "aliases": []
+  },
+  {
+    "english": "excited",
+    "chinese": "兴奋的",
+    "id": "w165",
+    "category": "情绪感受",
+    "aliases": []
+  },
+  {
+    "english": "cook",
+    "chinese": "厨师；烹饪",
+    "id": "w166",
+    "category": "职业工作",
+    "aliases": []
+  },
+  {
+    "english": "chef",
+    "chinese": "主厨",
+    "id": "w167",
+    "category": "职业工作",
+    "aliases": []
+  },
+  {
+    "english": "doctor",
+    "chinese": "医生",
+    "id": "w168",
+    "category": "职业工作",
+    "aliases": []
+  },
+  {
+    "english": "nurse",
+    "chinese": "护士",
+    "id": "w169",
+    "category": "职业工作",
+    "aliases": []
+  },
+  {
+    "english": "carer",
+    "chinese": "护理者；照料者",
+    "id": "w170",
+    "category": "职业工作",
+    "aliases": []
+  },
+  {
+    "english": "vet",
+    "chinese": "兽医",
+    "id": "w171",
+    "category": "职业工作",
+    "aliases": []
+  },
+  {
+    "english": "farmer",
+    "chinese": "农民",
+    "id": "w172",
+    "category": "职业工作",
+    "aliases": []
+  },
+  {
+    "english": "zoo keeper",
+    "chinese": "动物园管理员",
+    "id": "w173",
+    "category": "职业工作",
+    "aliases": []
+  },
+  {
+    "english": "photographer",
+    "chinese": "摄影师",
+    "id": "w174",
+    "category": "职业工作",
+    "aliases": []
+  },
+  {
+    "english": "journalist",
+    "chinese": "记者",
+    "id": "w175",
+    "category": "职业工作",
+    "aliases": []
+  },
+  {
+    "english": "mechanic",
+    "chinese": "机械师；技工",
+    "id": "w176",
+    "category": "职业工作",
+    "aliases": []
+  },
+  {
+    "english": "business",
+    "chinese": "商业；生意",
+    "id": "w177",
+    "category": "职业工作",
+    "aliases": []
+  },
+  {
+    "english": "waiter",
+    "chinese": "服务员；侍者",
+    "id": "w178",
+    "category": "职业工作",
+    "aliases": []
+  }
+]

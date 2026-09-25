@@ -1,0 +1,4 @@
+from ket_studio.desktop import main
+
+if __name__ == "__main__":
+    raise SystemExit(main())
