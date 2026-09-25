@@ -1,12 +1,23 @@
 # KET Word Studio
 
+## 项目文档
+
+| 文档入口 | 内容 |
+| --- | --- |
+| **[项目说明](doc/project-overview.md)** | 项目目标、功能范围与演示方式 |
+| **[使用说明](doc/user-guide.md)** | 学生练习、教师词库管理与数据操作 |
+| **[架构设计](doc/architecture.md)** | 网站与 Qt 桌面端的结构、数据与判分逻辑 |
+| **[部署说明](doc/deployment.md)** | GitHub Pages 发布、本地启动与构建 |
+| **[验收记录](doc/verification.md)** | 自动测试、运行验证与已知验证边界 |
+| **[下载说明](releases/README.md)** | 在线快捷方式及各平台发布包的选择 |
+
 [![version: 3.0.0](doc/badges/version.svg)](#体验方式)
 [![web: HTML + CSS + JavaScript](doc/badges/web.svg)](#本地运行)
 [![desktop: Python + PySide6](doc/badges/desktop.svg)](#本地运行)
 [![deploy: GitHub Pages](doc/badges/deploy.svg)](#github-pages-部署)
 [![access: No login](doc/badges/access.svg)](#功能)
 
-**[它做什么](#功能) · [快速体验](#体验方式) · [在线部署](#github-pages-部署) · [本地启动](#本地运行) · [目录结构](#目录) · [项目文档](#文档)**
+**[它做什么](#功能) · [快速体验](#体验方式) · [在线部署](#github-pages-部署) · [本地启动](#本地运行) · [目录结构](#目录) · [项目文档](#项目文档)**
 
 用于技术评审的单词学习演示项目，包含 **GitHub Pages 网站**和 **Python / Qt 桌面程序**。打开即进入学生页面，无需注册或登录，可随时切换教师页面。
 
@@ -121,7 +132,3 @@ KETWordStudio/
 ├── THIRD_PARTY_NOTICES.md
 └── README.md
 ```
-
-## 文档
-
-源码可直接从目录运行。文档入口：[项目说明](doc/project-overview.md) · [使用说明](doc/user-guide.md) · [架构设计](doc/architecture.md) · [验收记录](doc/verification.md)。
