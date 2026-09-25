@@ -49,7 +49,7 @@
 
 工作流先执行网站逻辑测试，再仅发布 `site/`。Python 源码、桌面程序、测试文件和文档不会进入网站发布目录。无需服务器、付费域名或环境密钥。
 
-发布后的地址格式为 `https://<username>.github.io/<repository>/`，请替换为自己的 GitHub 用户名和仓库名。这是地址示例，不表示已经发布。
+部署到自己的仓库时，地址格式为 `https://<username>.github.io/<repository>/`，请替换为自己的 GitHub 用户名和仓库名。当前演示入口见仓库右侧 About。
 
 详细步骤见 [部署说明](doc/deployment.md)。GitHub Free 支持公开仓库的 Pages；参见 [GitHub 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)。
 

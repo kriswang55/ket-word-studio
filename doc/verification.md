@@ -31,12 +31,14 @@ Python 测试依赖 `requirements-dev.txt`，Qt 控件测试使用临时数据�
 - 实际浏览器：直接进入学生页；切到教师新增 `robot / 机器人 / 科技` 和别名 `a robot`；切回学生完成该主题练习，`A ROBOT` 判分正确；刷新后保持 179 词与本次 100% 的成绩记录。
 - 页面检查：教师导航只含管理概览、词库管理、练习记录；学生导航只含学习功能；显示名称为 KET Word Studio；浏览器控制台未发现错误。
 - 网站根路径与仓库子路径均可加载。所有资源均采用相对地址。
+- GitHub Pages：部署工作流成功，正式 HTTPS 地址返回 200；实际浏览器验证学生 / 教师切换及各自导航、完成 1 道练习、`SHOUT` 大写答案判为正确，刷新后保留 100% 的本次成绩；控制台未发现错误。
+- 在线快捷方式：Windows `.url` 和 Mac `.webloc` 均指向正式 GitHub Pages 地址，文件格式与目标地址已校验。
 
 ## 验证边界
 
 已在 Windows 环境进行测试。没有在真实 macOS 或 Safari 设备上验收，也没有声称提供 macOS 原生安装包。网站提供窄屏样式，但尚未进行完整的移动设备兼容矩阵测试。
 
-GitHub Pages 的工作流和部署步骤已提供；本地验收不代表已经公开发布。公开部署后应按 `deployment.md` 检查最终 HTTPS 地址。
+网站已发布至 [GitHub Pages](https://kriswang55.github.io/ket-word-studio/)。后续重新部署时，应按 `deployment.md` 检查最终 HTTPS 地址。
 
 ## 提交内容
 
