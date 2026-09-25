@@ -124,7 +124,7 @@ class StudioService:
         return {
             "word_count": len(v.words),
             "categories": v.categories,
-            "version": "3.0.0",
+            "version": "3.1.0",
         }
 
     def words(self, query="", category="全部主题"):
@@ -415,7 +415,10 @@ class StudioService:
             key=lambda x: (-x["wrong_count"], x["english"]),
         )
 
-    def export(self, format="json"):
+    def export(self, format="json", locale="en"):
+        from .i18n import Translator
+
+        translator = Translator(locale)
         if format not in ("json", "csv"):
             raise AppError("仅支持 JSON 或 CSV 导出。")
         with self.store.connection() as db:
@@ -437,7 +440,18 @@ class StudioService:
         output = io.StringIO(newline="")
         writer = csv.writer(output)
         writer.writerow(
-            ["完成时间", "主题", "方式", "题数", "正确数", "正确率(%)", "来源"]
+            [
+                translator.text(value)
+                for value in [
+                    "完成时间",
+                    "主题",
+                    "方式",
+                    "题数",
+                    "正确数",
+                    "正确率(%)",
+                    "来源",
+                ]
+            ]
         )
 
         def safe(value):
@@ -454,12 +468,14 @@ class StudioService:
                     safe(x)
                     for x in [
                         r["completed_at"],
-                        r["category"],
-                        "错题复习" if r["mode"] == "review" else "随机练习",
+                        translator.category(r["category"]),
+                        translator.text(
+                            "错题复习" if r["mode"] == "review" else "随机练习"
+                        ),
                         r["total"],
                         r["correct"],
                         r["accuracy"],
-                        "示例记录" if r["sample"] else "本次演示",
+                        translator.text("示例记录" if r["sample"] else "本次演示"),
                     ]
                 ]
             )

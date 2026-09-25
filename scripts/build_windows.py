@@ -2,6 +2,7 @@
 
 from pathlib import Path
 import argparse
+import hashlib
 import os
 import subprocess
 import sys
@@ -76,7 +77,16 @@ def main():
                 command += ["--exclude-module", "PySide6"]
             command.append(str(root / entry))
             subprocess.run(command, cwd=root, env=env, check=True)
-    print("Executables: " + str(root / "releases/windows"))
+    output = root / "releases/windows"
+    executables = sorted(output.glob("*.exe"))
+    (output / "SHA256SUMS.txt").write_text(
+        "".join(
+            f"{hashlib.sha256(file.read_bytes()).hexdigest()}  {file.name}\n"
+            for file in executables
+        ),
+        encoding="ascii",
+    )
+    print("Executables: " + str(output))
 
 
 if __name__ == "__main__":

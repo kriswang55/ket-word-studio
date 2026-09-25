@@ -1,0 +1,34 @@
+{
+  "instructions": {
+    "Online": {
+      "en": "On Windows, open Open-KET-Online.url. On Mac, open Open-KET-Online.webloc. The shortcut opens the online website in your default browser. No local server or Python is required. Internet access is required.",
+      "zh-CN": "Windows 双击 Open-KET-Online.url；Mac 双击 Open-KET-Online.webloc。快捷方式使用默认浏览器打开在线网站，不启动本地服务器，无需 Python。需要联网。",
+      "zh-HK": "Windows 雙擊 Open-KET-Online.url；Mac 雙擊 Open-KET-Online.webloc。快捷方式使用默認瀏覽器打開在線網站，不啓動本地服務器，無需 Python。需要聯網。"
+    },
+    "Windows-Qt": {
+      "en": "Run KETWordStudio.exe to open the student view. You can switch to the teacher view. Python installation is not required.",
+      "zh-CN": "双击 KETWordStudio.exe，直接进入学生页面，可切换教师页面。无需安装 Python。",
+      "zh-HK": "雙擊 KETWordStudio.exe，直接進入學生頁面，可切換教師頁面。無需安裝 Python。"
+    },
+    "Windows-Web": {
+      "en": "Run KETWordStudioWeb.exe to open the local website in your browser. Keep the launcher window open; closing it stops the server. The default port is 8765. Python installation is not required.",
+      "zh-CN": "双击 KETWordStudioWeb.exe，自动打开本地网站。保持启动窗口运行，关闭窗口停止服务。默认端口 8765。无需安装 Python。",
+      "zh-HK": "雙擊 KETWordStudioWeb.exe，自動打開本地網站。保持啓動窗口運行，關閉窗口停止服務。默認端口 8765。無需安裝 Python。"
+    },
+    "Mac-Web": {
+      "en": "Install Python 3.10+ and run python3 run_web.py in this directory. Alternatively, run chmod +x Start-Web-Mac.command, then open that script. Qt is not required. This is not a native macOS .app.",
+      "zh-CN": "安装 Python 3.10+ 后，在此目录执行 python3 run_web.py。也可执行 chmod +x Start-Web-Mac.command 后双击该脚本。无需 Qt。此包不是原生 macOS .app。",
+      "zh-HK": "安裝 Python 3.10+ 後，在此目錄執行 python3 run_web.py。也可執行 chmod +x Start-Web-Mac.command 後雙擊該腳本。無需 Qt。此包不是原生 macOS .app。"
+    },
+    "Website": {
+      "en": "Deploy this directory to a static website host, or run python3 -m http.server 8765 and open http://localhost:8765/. Do not open the HTML file directly.",
+      "zh-CN": "将本目录部署到静态网站托管服务，或执行 python3 -m http.server 8765 后访问 http://localhost:8765/。请勿直接双击 HTML。",
+      "zh-HK": "將本目錄部署到靜態網站託管服務，或執行 python3 -m http.server 8765 後訪問 http://localhost:8765/。請勿直接雙擊 HTML。"
+    }
+  },
+  "intro": {
+    "en": "English is the default. Use the English / 简体中文 / 繁体中文 buttons to switch languages. Data stays in this browser or computer and can be reset from the interface.",
+    "zh-CN": "默认语言为英语，可点击 English / 简体中文 / 繁体中文 三个按钮切换。演示数据只保存在当前浏览器或电脑中，可通过界面重置。",
+    "zh-HK": "默認語言為英語，可點擊 English / 简体中文 / 繁体中文 三個按鈕切換。演示數據只儲存在當前瀏覽器或電腦中，可通過界面重置。"
+  }
+}

@@ -14,3 +14,4 @@ releases/windows/*.exe
 releases/packages/
 *.zip
 *.tmp
+preferences.json

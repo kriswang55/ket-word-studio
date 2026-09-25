@@ -1,0 +1,49 @@
+{
+  "locales": [
+    "en",
+    "zh-CN",
+    "zh-HK"
+  ],
+  "documents": [
+    [
+      "README.md",
+      "README.zh-CN.md",
+      "README.zh-HK.md"
+    ],
+    [
+      "releases/README.md",
+      "releases/README.zh-CN.md",
+      "releases/README.zh-HK.md"
+    ],
+    [
+      "THIRD_PARTY_NOTICES.md",
+      "doc/zh-CN/third-party-notices.md",
+      "doc/zh-HK/third-party-notices.md"
+    ],
+    [
+      "doc/en/project-overview.md",
+      "doc/zh-CN/project-overview.md",
+      "doc/zh-HK/project-overview.md"
+    ],
+    [
+      "doc/en/user-guide.md",
+      "doc/zh-CN/user-guide.md",
+      "doc/zh-HK/user-guide.md"
+    ],
+    [
+      "doc/en/architecture.md",
+      "doc/zh-CN/architecture.md",
+      "doc/zh-HK/architecture.md"
+    ],
+    [
+      "doc/en/deployment.md",
+      "doc/zh-CN/deployment.md",
+      "doc/zh-HK/deployment.md"
+    ],
+    [
+      "doc/en/verification.md",
+      "doc/zh-CN/verification.md",
+      "doc/zh-HK/verification.md"
+    ]
+  ]
+}

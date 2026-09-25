@@ -1,88 +1,95 @@
 # KET Word Studio
 
-## 项目文档
+**English** | [简体中文](README.zh-CN.md) | [繁体中文](README.zh-HK.md)
 
-| 文档入口 | 内容 |
+## Project documentation
+
+| Document | Contents |
 | --- | --- |
-| **[项目说明](doc/project-overview.md)** | 项目目标、功能范围与演示方式 |
-| **[使用说明](doc/user-guide.md)** | 学生练习、教师词库管理与数据操作 |
-| **[架构设计](doc/architecture.md)** | 网站与 Qt 桌面端的结构、数据与判分逻辑 |
-| **[部署说明](doc/deployment.md)** | GitHub Pages 发布、本地启动与构建 |
-| **[验收记录](doc/verification.md)** | 自动测试、运行验证与已知验证边界 |
-| **[下载说明](releases/README.md)** | 在线快捷方式及各平台发布包的选择 |
+| **[Project overview](doc/en/project-overview.md)** | Purpose, scope and demonstration workflow |
+| **[User guide](doc/en/user-guide.md)** | Student practice, teacher vocabulary management and data |
+| **[Architecture](doc/en/architecture.md)** | Website, Qt desktop, persistence and grading |
+| **[Deployment](doc/en/deployment.md)** | GitHub Pages, local preview and release packaging |
+| **[Verification](doc/en/verification.md)** | Automated checks, runtime checks and validation limits |
+| **[Downloads](releases/README.md)** | Online shortcuts and platform-specific packages |
 
-[![version: 3.0.0](doc/badges/version.svg)](#体验方式)
-[![web: HTML + CSS + JavaScript](doc/badges/web.svg)](#本地运行)
-[![desktop: Python + PySide6](doc/badges/desktop.svg)](#本地运行)
-[![deploy: GitHub Pages](doc/badges/deploy.svg)](#github-pages-部署)
-[![access: No login](doc/badges/access.svg)](#功能)
+[![version: 3.1.0](doc/badges/version.svg)](#try-it)
+[![web: HTML + CSS + JavaScript](doc/badges/web.svg)](#run-locally)
+[![desktop: Python + PySide6](doc/badges/desktop.svg)](#run-locally)
+[![deploy: GitHub Pages](doc/badges/deploy.svg)](#github-pages)
+[![access: No login](doc/badges/access.svg)](#features)
 
-**[它做什么](#功能) · [快速体验](#体验方式) · [在线部署](#github-pages-部署) · [本地启动](#本地运行) · [目录结构](#目录) · [项目文档](#项目文档)**
+**[Features](#features) · [Quick start](#try-it) · [Languages](#languages) · [Deployment](#github-pages) · [Local development](#run-locally) · [Directory structure](#directory-structure)**
 
-用于技术评审的单词学习演示项目，包含 **GitHub Pages 网站**和 **Python / Qt 桌面程序**。打开即进入学生页面，无需注册或登录，可随时切换教师页面。
+A vocabulary learning project for technical review, with a **GitHub Pages website** and a **native Python / Qt desktop application**. Open either edition to enter the student view, then switch to the teacher view without registering or signing in.
 
-## 体验方式
+## Try it
 
-| 方式 | 启动方法 |
+| Edition | How to start |
 | --- | --- |
-| 在线网站 | 从仓库右侧 About 中的网站入口访问，支持 Windows、Mac 和移动设备浏览器 |
-| 在线快捷方式 | 下载 Release 中的在线启动包；Windows 双击 `.url`，Mac 双击 `.webloc` |
-| Windows Qt 桌面版 | 双击 `releases/windows/KETWordStudio.exe` |
-| Windows 本地网站 | 双击 `releases/windows/KETWordStudioWeb.exe` |
-| Mac 本地网站 | 安装 Python 3.10+，执行 `python3 run_web.py` |
-| 开发预览 | 安装 Node.js 20+，执行 `npm start`，打开终端显示的网址 |
+| Online website | Open the website link in the repository's About section on Windows, Mac or a mobile browser |
+| Online shortcuts | Download the online package from Releases; open `.url` on Windows or `.webloc` on Mac |
+| Windows Qt desktop | Run `releases/windows/KETWordStudio.exe` from the full package, or download the desktop package |
+| Windows local website | Run `releases/windows/KETWordStudioWeb.exe` from the full package, or download the Windows browser package |
+| Mac local website | Install Python 3.10+ and run `python3 run_web.py` |
+| Development preview | Install Node.js 20+, run `npm start`, and open the URL printed in the terminal |
 
-网站与桌面版都内置 **178 个词汇、19 个主题和 3 条明确标注的示例成绩**。数据可通过界面的“重置演示数据”恢复。
+Both editions include **178 words, 19 topics and 3 clearly labelled sample records**. Use **Reset demo data** to restore the initial demonstration.
 
-在仓库 **Releases** 中选择在线快捷方式、完整包、源码包、Windows Qt 桌面包、Windows 浏览器包、Mac 浏览器包或静态网站包。各包用途和运行要求见 [下载说明](releases/README.md)。
+The Releases page offers online shortcuts, a full project, source code, Windows Qt, Windows browser, Mac browser and static website packages. See the [download guide](releases/README.md) for requirements.
 
-## 功能
+## Languages
 
-- 学生：随机拼写测试、按主题抽题、错题复习、练习续接、词汇搜索、成绩趋势、逐题详情、JSON / CSV 导出。
-- 教师：新增 / 编辑 / 停用词汇、设置其他可接受答案、查看学生页面产生的练习记录。
-- 身份切换：学生与教师分别展示对应导航；切换不会中断未完成的练习。
-- 判分：忽略大小写、多余空白和全角字符差异；采用词条及其别名的确定性匹配。
-- 历史保护：练习保存题目快照，编辑词库不会改变已开始练习的题目与成绩。
+The website, Qt application and documentation support **English**, **简体中文** and **繁体中文**. English is the default on first launch. Use the language buttons in the application sidebar; your choice is remembered on that browser or computer. Documentation links at the top of each page switch to the same document in another language.
 
-此项目用于技术演示。学生和教师是界面模式，不是账户或安全权限系统。网站数据只保存在当前浏览器；桌面数据保存在本机 SQLite，两端不互相同步。初始词库为演示练习集，不代表完整官方考试词表。
+Switching language preserves the current role, practice, answer draft and completed results. Interface labels, built-in topic names, validation messages and CSV headings follow the selected language. JSON field names remain stable for tools that consume the export. This is an English spelling exercise using Chinese meanings; the built-in Chinese prompts use traditional characters in the traditional Chinese interface. Teacher-entered content remains as entered.
 
-## 三分钟评审路线
+## Features
 
-1. 学生页面 → 单词练习 → 选择 3 道题 → 提交或跳过 → 查看成绩。
-2. 打开错题复习和学习记录，查看逐题判分与导出功能。
-3. 切换教师页面 → 词库管理 → 添加 `robot / 机器人 / 科技`，填写其他可接受答案 `a robot`。
-4. 返回学生页面，按“科技”主题练习，验证新增词条及别名判分。
-5. 使用“重置演示数据”恢复初始状态。
+- Students: random or topic-based spelling practice, mistake review, resume, word search, result trends, per-question details and JSON / CSV exports.
+- Teachers: add, edit or disable words, set alternative accepted answers and inspect practice records from the student view.
+- Role switching: each view displays its own navigation and shares the current demonstration data.
+- Grading: deterministic comparison after Unicode NFKC normalization, case normalization and whitespace cleanup; accepted aliases are supported.
+- History: practices store question snapshots, so later word edits cannot change an existing practice or result.
 
-## GitHub Pages 部署
+Student and teacher are demonstration views, not accounts or permission boundaries. Website data stays in the current browser; the desktop edition stores data in local SQLite. The two editions do not synchronize. The initial word bank is a demonstration set, not a complete official examination vocabulary list.
 
-项目已提供 `.github/workflows/pages.yml`。将源码推送至公开仓库的 `main` 分支，在 **Settings → Pages → Source** 中选择 **GitHub Actions**，然后在 Actions 页面运行 **Deploy website**。
+## Three-minute review
 
-工作流先执行网站逻辑测试，再仅发布 `site/`。Python 源码、桌面程序、测试文件和文档不会进入网站发布目录。无需服务器、付费域名或环境密钥。
+1. Student → Word practice → choose 3 questions → submit or skip → view the result.
+2. Inspect Mistake review and Learning records, including per-question details and exports.
+3. Teacher → Vocabulary management → add `robot / 机器人 / 科技`, with `a robot` as an accepted answer.
+4. Return to Student and practise the new topic to check word creation and alias grading.
+5. Switch between the three interface languages during a practice, then use Reset demo data when finished.
 
-部署到自己的仓库时，地址格式为 `https://<username>.github.io/<repository>/`，请替换为自己的 GitHub 用户名和仓库名。当前演示入口见仓库右侧 About。
+## GitHub Pages
 
-详细步骤见 [部署说明](doc/deployment.md)。GitHub Free 支持公开仓库的 Pages；参见 [GitHub 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)。
+The repository includes `.github/workflows/pages.yml`. Push the source to a public repository's `main` branch, select **Settings → Pages → Source → GitHub Actions**, and run **Deploy website** in Actions.
 
-## 本地运行
+The workflow checks documentation links and website logic before deploying only `site/`. Python source, desktop executables, tests and documentation are not part of the website deployment. No application server, paid domain or API secret is needed.
 
-网站无需安装 JavaScript 依赖：
+For your own deployment, the URL follows `https://<username>.github.io/<repository>/`. The current demonstration URL is in the repository's About section. See [deployment instructions](doc/en/deployment.md) and [GitHub's Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
+
+## Run locally
+
+The website needs no JavaScript dependency installation:
 
 ```bash
 npm start
 npm test
+npm run check:docs
 ```
 
-也可仅用 Python 预览同一套网站：
+You can also preview the same site with Python:
 
 ```bash
 python run_web.py
-# Mac 使用 python3 run_web.py
+# On Mac: python3 run_web.py
 ```
 
-默认端口为 8765。端口被占用时使用 `python run_web.py --port 8766`。浏览器数据按网站来源隔离，换端口会使用另一份数据。启动终端需要保持运行。
+The Python preview uses port 8765 by default. If occupied, use `python run_web.py --port 8766`. Browser data is isolated by origin, including the port. Keep the preview terminal open.
 
-Qt 桌面版源码运行与打包：
+Run and build the Qt desktop edition on Windows:
 
 ```powershell
 python -m venv .venv
@@ -93,42 +100,40 @@ python -m venv .venv
 .venv\Scripts\python.exe scripts\package_releases.py
 ```
 
-Windows EXE 在 Windows x64 上构建。Mac 可直接使用在线网站；本地预览脚本无需 Qt。没有提供 macOS 原生安装包。
+Windows executables are built for Windows x64. The Mac browser package does not need Qt. No native macOS installation package is provided.
 
-## 目录
+## Directory structure
 
 ```text
 KETWordStudio/
-├── site/                         # 独立、可直接发布的网站
-│   ├── index.html
-│   ├── app.js                    # 页面与交互
-│   ├── engine.js                 # 练习、词库、统计、浏览器持久化
-│   ├── style.css
-│   ├── icon.svg
-│   └── data/words.json           # 两端共享的初始词库
-├── ket_studio/                   # Python 桌面应用
-│   ├── desktop.py               # Qt 界面
-│   ├── service.py               # 练习与词库规则
-│   ├── storage.py               # SQLite 事务与表结构
-│   ├── vocabulary.py            # 词库校验与归一化
-│   ├── paths.py                 # 数据目录
-│   ├── web_server.py            # 静态网站本地预览
-│   └── assets/app.ico
-├── scripts/                     # 预览、构建、打包
-├── launchers/                   # Windows / Mac 在线网站快捷方式
-├── tests/                       # JavaScript / Python / Qt 测试
-├── doc/                         # 项目、操作、架构、部署与验收文档
-├── .github/workflows/pages.yml   # GitHub Pages 自动发布
-├── releases/windows/            # Windows EXE、校验值、第三方许可证
-├── run_desktop.py
-├── run_web.py
-├── Start-Desktop-Windows.bat
-├── Start-Web-Windows.bat
-├── Start-Web-Mac.command
-├── package.json
-├── pyproject.toml
-├── requirements.txt
-├── requirements-dev.txt
+├── site/                         # Independently deployable website
+│   ├── app.js / engine.js        # Interface and domain rules
+│   ├── i18n.js                  # Language selection and formatting
+│   ├── locales/                 # Shared en, zh-CN and zh-HK catalogues
+│   ├── data/words.json          # Shared initial word bank
+│   └── index.html / style.css / icon.svg
+├── ket_studio/                   # Native Qt application and SQLite service
+│   ├── desktop.py / service.py / storage.py
+│   ├── i18n.py                  # Reads the same catalogues; saves preferences
+│   └── vocabulary.py / paths.py / web_server.py / assets/
+├── doc/
+│   ├── en/                      # English documentation
+│   ├── zh-CN/                   # Simplified Chinese documentation
+│   ├── zh-HK/                   # Traditional Chinese documentation
+│   ├── badges/                  # Shared README badges
+│   └── images/                  # Shared application screenshots
+├── scripts/                     # Preview, build, package and documentation checks
+├── tests/                       # JavaScript, Python, Qt and language checks
+├── launchers/                   # Online shortcuts for Windows and Mac
+├── releases/                    # Three-language download guides
+│   ├── windows/                 # Executables, checksums and dependency licences
+│   └── packages/                # Generated archives, excluded from Git
+├── .github/workflows/pages.yml
+├── run_desktop.py / run_web.py
+├── Start-Desktop-Windows.bat / Start-Web-Windows.bat / Start-Web-Mac.command
+├── package.json / pyproject.toml / requirements*.txt
 ├── THIRD_PARTY_NOTICES.md
-└── README.md
+└── README.md / README.zh-CN.md / README.zh-HK.md
 ```
+
+Language catalogues and initial words each have one shared source for the website and Qt. Images and badges are shared across documentation languages. Build outputs, databases and caches stay out of Git. See [third-party notices](THIRD_PARTY_NOTICES.md).

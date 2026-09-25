@@ -94,13 +94,10 @@ def main():
             if name.startswith("site/")
         ],
     }
-    instructions = {
-        "Online": "Windows 双击 Open-KET-Online.url；Mac 双击 Open-KET-Online.webloc。快捷方式使用默认浏览器打开在线网站，不启动本地服务器，无需 Python。需要联网。",
-        "Windows-Qt": "双击 KETWordStudio.exe，直接进入学生页面，可切换教师页面。无需安装 Python。",
-        "Windows-Web": "双击 KETWordStudioWeb.exe，自动打开本地网站。保持启动窗口运行，关闭窗口停止服务。默认端口 8765。无需安装 Python。",
-        "Mac-Web": "安装 Python 3.10+ 后，在此目录执行 python3 run_web.py。也可执行 chmod +x Start-Web-Mac.command 后双击该脚本。无需 Qt。此包不是原生 macOS .app。",
-        "Website": "将本目录部署到静态网站托管服务，或执行 python3 -m http.server 8765 后访问 http://localhost:8765/。请勿直接双击 HTML。",
-    }
+    guides = json.loads(
+        (ROOT / "releases/instructions.json").read_text(encoding="utf-8")
+    )
+    instructions = guides["instructions"]
     archives = []
     for name, entries in bundles.items():
         target = output / name
@@ -119,10 +116,18 @@ def main():
                 )
             for kind, content in instructions.items():
                 if f"-{kind}-" in name:
-                    archive.writestr(
-                        "KETWordStudio/README.md",
-                        f"# KET Word Studio {VERSION}\n\n{content}\n\n演示数据仅保存在当前电脑或浏览器，可通过界面重置。\n",
-                    )
+                    locales = ["en", "zh-CN", "zh-HK"]
+                    names = ["README.md", "README.zh-CN.md", "README.zh-HK.md"]
+                    labels = ["English", "简体中文", "繁体中文"]
+                    for index, locale in enumerate(locales):
+                        navigation = " | ".join(
+                            f"**{label}**" if i == index else f"[{label}]({names[i]})"
+                            for i, label in enumerate(labels)
+                        )
+                        archive.writestr(
+                            "KETWordStudio/" + names[index],
+                            f"# KET Word Studio {VERSION}\n\n{navigation}\n\n{content[locale]}\n\n{guides['intro'][locale]}\n",
+                        )
         with zipfile.ZipFile(target) as archive:
             if archive.testzip() is not None:
                 raise RuntimeError(f"ZIP verification failed: {name}")

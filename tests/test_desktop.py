@@ -13,6 +13,7 @@ from ket_studio.service import StudioService
 def test_desktop_role_navigation_word_editor_and_quiz(tmp_path):
     app = QApplication.instance() or QApplication([])
     window = StudioWindow(StudioService(tmp_path / "demo.sqlite3"))
+    window.switch_language("zh-CN")
     window.show()
     app.processEvents()
     assert set(window.nav) == {"home", "quiz", "words", "mistakes", "records"}

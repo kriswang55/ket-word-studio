@@ -225,7 +225,7 @@ export class DemoStore {
       sampleCount: records.filter(q => q.sample).length, recent: records.slice(0,7)};
   }
 
-  exportRecords(format) {
+  exportRecords(format, translate = value => value) {
     const records = this.records();
     if (format === 'json') return JSON.stringify({version: 1, exportedAt: timestamp(), records}, null, 2);
     if (format !== 'csv') fail('仅支持 JSON 或 CSV。');
@@ -234,8 +234,8 @@ export class DemoStore {
       if (/^[\s]*[=+@-]/u.test(str)) str = "'"+str;
       return '"'+str.replaceAll('"','""')+'"';
     };
-    return '\ufeff'+[['完成时间','主题','方式','题数','正确数','正确率(%)','来源'],
-      ...records.map(r => [r.completedAt,r.category,r.mode==='review'?'错题复习':'随机练习',r.total,r.correct,r.accuracy,r.sample?'示例':'本次演示'])]
+    return '\ufeff'+[['完成时间','主题','方式','题数','正确数','正确率(%)','来源'].map(translate),
+      ...records.map(r => [r.completedAt,translate(r.category),translate(r.mode==='review'?'错题复习':'随机练习'),r.total,r.correct,r.accuracy,translate(r.sample?'示例':'本次演示')])]
       .map(row => row.map(cell).join(',')).join('\r\n');
   }
 }

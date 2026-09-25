@@ -1,5 +1,7 @@
 # 架构设计
 
+[English](../en/architecture.md) | **简体中文** | [繁体中文](../zh-HK/architecture.md)
+
 ## 模块关系
 
 ```mermaid
@@ -62,3 +64,13 @@ GitHub Pages 工作流只上传 `site/`。所有资源采用相对地址，兼�
 ## 验证策略
 
 JavaScript 测试覆盖规则和存储错误；Python 测试覆盖事务、快照、续接、统计与导出；Qt 测试通过实际控件填写词条和作答；浏览器人工检查真实导航、表单、判分和刷新持久化。两端都使用隔离的测试数据，不附带个人记录。
+
+## 多语言与目录组织
+
+`site/i18n.js` 与 `ket_studio/i18n.py` 读取同一组 `site/locales/` 资源。语言代码为 `en`、`zh-CN`、`zh-HK`。网站使用独立的 `ket-word-studio.language` 保存偏好；Qt 在数据库旁保存 `preferences.json`。语言切换仅改变显示，不修改题目身份、答案或成绩；CSV 表头本地化，JSON 保留稳定字段。
+
+默认英语入口为 `README.md`，根目录的 `README.zh-CN.md` 和 `README.zh-HK.md` 提供中文入口。五篇项目文档位于 `doc/en/`、`doc/zh-CN/`、`doc/zh-HK/`，共用徽章和截图。下载说明与第三方说明同样提供三语；许可证副本保留原文。
+
+语言测试覆盖资源键和参数完整性、默认语言、偏好保存失败、数据隔离、CSV 以及 Qt 作答和判分中的语言切换。文档检查验证相对链接、语言入口和标题锚点。
+
+[返回 README](../../README.zh-CN.md)
